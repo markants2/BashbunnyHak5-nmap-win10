@@ -1,0 +1,8 @@
+LED B
+ATTACKMODE RNDIS_ETHERNET
+LED R G 100
+GET HOST_IP
+nmap --fuzzy $HOST_IP >> /root/udisk/nmap.txt
+SYNC
+SYNC
+LED G
